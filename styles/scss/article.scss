@@ -1,0 +1,53 @@
+
+.Investment {
+  position: relative;
+  padding-top: 80px;
+}
+
+#Investment {
+  height: 90vh;
+  z-index: -1;
+  position: relative;
+  background: url("../../assets/img/Rectangle 2068.png")no-repeat center/cover;
+  &:before{
+    content : "";
+    width: 100%;
+    height: 40%;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    background: linear-gradient(rgba(30, 32, 36, 0.02), rgba(30, 32, 36, 0.91),#1E2024);
+  }
+}
+.invTitle{
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #2C3E50;
+
+}
+.invDesc{
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+
+
+  color: #9099A3;
+
+}
+.invDesc2{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+
+  color: #9099A3;
+}
+.Investment_block{
+  background: rgba(255, 255, 255, 0.2);
+}
+
